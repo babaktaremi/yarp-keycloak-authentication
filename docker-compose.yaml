@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: keycloak-dev
+    environment:
+      - KEYCLOAK_ADMIN=admin               # Admin username
+      - KEYCLOAK_ADMIN_PASSWORD=admin123   # Admin password
+      - KC_HOSTNAME=localhost              # For development
+      - KC_HTTP_ENABLED=true
+    command: start-dev                     # Enables development mode
+    ports:
+      - "8080:8080"  # Map Keycloak port
+    volumes:
+      - keycloak_data:/opt/keycloak/data   # Optional data persistence
+    networks:
+      - keycloak-network
+
+volumes:
+  keycloak_data:  # Persistent storage for Keycloak data
+
+networks:
+  keycloak-network:
+    driver: bridge

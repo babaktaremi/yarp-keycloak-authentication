@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpStreamApi", "UpStreamApi\UpStreamApi.csproj", "{1610D877-B0E7-40EA-AAF2-0A8CDDDEEDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyApi", "ProxyApi\ProxyApi.csproj", "{1CD32AE8-8EDB-48A6-8754-5472DB04772F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1610D877-B0E7-40EA-AAF2-0A8CDDDEEDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1610D877-B0E7-40EA-AAF2-0A8CDDDEEDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1610D877-B0E7-40EA-AAF2-0A8CDDDEEDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1610D877-B0E7-40EA-AAF2-0A8CDDDEEDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD32AE8-8EDB-48A6-8754-5472DB04772F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD32AE8-8EDB-48A6-8754-5472DB04772F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD32AE8-8EDB-48A6-8754-5472DB04772F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD32AE8-8EDB-48A6-8754-5472DB04772F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

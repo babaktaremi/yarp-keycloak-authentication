@@ -1,0 +1,6 @@
+@UpStreamApi_HostAddress = http://localhost:5025
+
+GET {{UpStreamApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
